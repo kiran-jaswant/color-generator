@@ -9,6 +9,7 @@ btn.addEventListener("click",function(){
     let blue= Math.floor(Math.random()*255);
     
     head.innerText=(`rgb(${red},${green},${blue})`);
-    box.style.backgroundColor=`rgb(${red},${green},${blue})`
+    box.style.backgroundColor=`rgb(${red},${green},${blue})`;
+    box.style.border=`2px solid rgb(${red},${green},${blue});`
 
 })

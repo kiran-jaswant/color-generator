@@ -4,7 +4,7 @@ body{
 .Box{
     height:280px;
     width:600px;
-    border: 2px solid black;
+    
     margin: auto;
     margin-top:25px ;
     box-shadow: 0 0 10px grey;
